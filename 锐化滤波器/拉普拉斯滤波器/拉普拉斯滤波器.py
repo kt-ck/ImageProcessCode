@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread("../img/face.jpg", 0)
+img = cv.imread("../../img/face.jpg", 0)
 
 c = -1
 
