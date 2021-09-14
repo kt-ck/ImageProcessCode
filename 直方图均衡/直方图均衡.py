@@ -31,6 +31,9 @@ cv.namedWindow("show")
 cv.imshow("show", img)
 cv.waitKey(0)
 
+
 cv.imshow("show", img_process)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+cv.imwrite("coffeeBean_process.png", img_process)
