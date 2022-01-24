@@ -19,3 +19,4 @@ for x in range(1, img_process.shape[0] - 1):
         
 
 cv.imwrite("process.png", new_img)
+
